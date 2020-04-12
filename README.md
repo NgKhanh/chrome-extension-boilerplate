@@ -10,3 +10,5 @@
 6) Return extension's option_page to see 
 
 Amazing! Nothing change. Shit! >"<
+
+https://github.com/rubenspgcavalcante/webpack-extension-reloader/issues/100

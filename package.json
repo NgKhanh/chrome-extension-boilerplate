@@ -1,0 +1,13 @@
+{
+  "name": "chrome-extension-boilerplate",
+  "version": "1.0.0",
+  "description": "Chrome Extension HotReload",
+  "scripts": {
+    "watch": "NODE_ENV=development webpack --config webpack.config.js --mode=development"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-extension-reloader": "^1.1.4"
+  }
+}

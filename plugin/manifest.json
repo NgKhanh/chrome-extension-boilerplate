@@ -1,0 +1,46 @@
+{
+  "name": "Extension-Starter-Kit",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "extension starter kit",
+  "icons": {
+    "16": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "options_page": "pages/dashboard.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "dashboard.js"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://apis.google.com; object-src 'self'",
+  "web_accessible_resources": [
+    "images/*",
+    "styles/*",
+    "scripts/*",
+    "scripts/api/*",
+    "scripts/api/autoget/*",
+    "scripts/conf/*",
+    "scripts/libs/3th/*",
+    "scripts/libs/*",
+    "tmpl/*"
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "background",
+    "identity",
+    "notifications",
+    "cookies",
+    "management",
+    "storage",
+    "alarms",
+    "*://*/*"
+  ]
+}

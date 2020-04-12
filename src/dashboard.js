@@ -1,5 +1,5 @@
 
-console.log("Oh God! Dont worklll!!!!");
+console.log("Oh God! Dont work!!!!");
 
 
 

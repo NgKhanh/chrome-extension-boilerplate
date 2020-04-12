@@ -6,7 +6,7 @@ module.exports = {
   watch: true,
   devtool: 'inline-source-map',
   entry: {
-    dashboard: './src/dashboard.js'
+    options: './src/options.js'
   },
   output: {
     publicPath: '/',
@@ -20,7 +20,7 @@ module.exports = {
       port: 9090,
       reloadPage: true
       , entries: {
-        extensionPage: ['dashboard']
+        extensionPage: ['options']
       }
     })
   ]
